@@ -1,0 +1,374 @@
+body {
+    min-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/*центрируем*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*--псевдораспорка--*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*--1.Header--*/
+
+.header {
+    width: auto;
+    height: 545px;
+  
+    background-color: #eeeeee;  
+}
+
+.logo {
+    width: 160px;
+    height: 65px;
+  
+    float: left;
+    margin-top: 50px;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.3;
+}
+
+/*Большие буквы для меню и кнопок*/
+.main-nav,
+.cart{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-nav,
+.cart {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.main-nav {
+    width: 840px;
+    list-style: none;
+    float: left;  
+    margin-left: 200px;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.main-nav li:last-child {
+    float: right;
+    margin-right: 0px;
+}
+
+.cart-icon {
+    margin-right: 25px;
+    opacity: 0.3;    
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-nav a:hover {
+    color: #fb565a;
+}
+
+.main-nav a:active {
+    opacity: 0.3;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color:aqua;    
+}
+
+/*--2.Offers --*/
+
+.offers {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.offer-item {
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+.offer-title {
+    text-transform: uppercase;
+}
+
+.offer-description {
+    padding-right: 40px;
+}
+
+.btn-order {
+    box-sizing: border-box;
+    width: 160px;
+    border-radius: 5px;
+    padding: 15px;
+    
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.btn-order {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.red {
+    background-color: #fb565a;
+}
+
+.green {
+    background-color: #00ca74;
+}
+
+.yellow {
+    background-color: #efc84a;
+}
+
+.red:hover {
+    background-color: #e74246;
+}
+
+.red:active {    
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.red:active {
+    background-color: #d7373b;
+}
+
+.green:hover {
+    background-color: #00bc6c;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.green:active {
+    opacity: 0.3;
+}
+
+.green:active {
+    background-color: #00aa62;
+}
+
+.yellow:hover {
+    background-color: #eab534;
+}
+
+.yellow:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.yellow:active {
+    background-color: #e5a722;
+}
+
+/*--3.About-us--*/
+
+.small-studio {
+    width: 680px; 
+    float: left;
+}
+
+.about-title {
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.about-h3 {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.small-studio li {
+    list-style:url(../img/red-marker.png); 
+    line-height: 3em;
+}
+
+.accuracy {
+    padding-top: 15px;
+    float: right;        
+}
+
+.stats {
+    margin-top: 55px;
+}
+
+.stats-item {
+    width: 100px;
+    float: left;
+    margin-right: 25px;
+}
+
+.percent {
+    font-size: 45px;
+    font-weight: bold
+}
+
+.percent-symbol {
+    vertical-align: super;
+    font-size: 30px;
+}
+
+/*--4.Partners--*/
+
+.partners {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.partners .container {
+    border-top: 2px solid #cccccc;    
+    border-bottom: 2px solid #cccccc;   
+}
+
+.partners img {
+    opacity: 0.2;
+    margin left: 35px;
+    margin-right: 35px;
+}
+
+.partner-link:hover img {
+    opacity: 1.0;
+}
+
+.partner-link:active img {
+    opacity: 0.1;
+}
+
+/*--4.Contact and map--*/
+
+.contact-map {
+    width: 100%;
+    height: 416px;
+    background: url("../img/map.jpg")no-repeat;
+    background-position: center;
+    padding-top: 55px;
+}
+
+.contact-us {
+    box-sizing: border-box;
+    width: 320px;
+    height: 308px;
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 50px;
+    float: left
+}
+
+.title-studio {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+.btn-contact {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fb565a; 
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    display: table-cell;
+    vertical-align: middle;   
+}
+
+.btn-contact:hover {
+    background-color: #e74246;
+}
+
+.btn-contact:active .btn-label {    
+    opacity: 0.3;
+}
+
+.btn-contact:active {
+    background-color: #d7373b;
+}
+
+.last-p {
+    margin-bottom: 30px;
+}
+
+.map-marker {
+    position: absolute;
+    margin: 0;
+    margin-left: 240px;
+    margin-top: 30px
+}
+
+/*--5.Footer--*/
+
+.social {
+    float: left
+}
+
+.btn-social {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    
+    display: inline-block;  
+    padding-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.discount {
+    float: left;
+    margin-left: 140px;
+}
+
+.slogan {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.btn-social:hover {
+    background-color: #e74246;
+}
+
+.btn-social:active img{
+    opacity: 0.3;
+}
+
+.btn-social:active {
+    background-color: #d7373b;
+}
