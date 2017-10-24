@@ -98,9 +98,27 @@ body {
 
 .banner {
     width: 100%;
-    height: 400px;
-    background-color:aqua;    
+    height: 431px;
+    background: url(/img/banner.png) no-repeat;
+    background-position: 470px  -65px;
+    
+    /*background-color:aqua;    */
 }
+
+.banner-title {
+    font-size: 55px;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin: 0;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
 
 /*--2.Offers --*/
 
@@ -291,7 +309,7 @@ body {
 }
 
 
-.btn-contact {
+.btn-big {
     width: 220px;
     height: 50px;
     border-radius: 5px;
@@ -306,15 +324,15 @@ body {
     vertical-align: middle;   
 }
 
-.btn-contact:hover {
+.btn-big:hover {
     background-color: #e74246;
 }
 
-.btn-contact:active .btn-label {    
-    opacity: 0.3;
+.btn-big:active {    
+    color: rgba(255,255,255,0.3);
 }
 
-.btn-contact:active {
+.btn-big:active {
     background-color: #d7373b;
 }
 
@@ -372,3 +390,6 @@ body {
 .btn-social:active {
     background-color: #d7373b;
 }
+}
+
+
