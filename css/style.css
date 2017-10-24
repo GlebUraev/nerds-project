@@ -321,7 +321,7 @@ body {
     color: white;
     
     display: table-cell;
-    vertical-align: middle;   
+    vertical-align: middle;    
 }
 
 .btn-big:hover {
@@ -390,6 +390,47 @@ body {
 .btn-social:active {
     background-color: #d7373b;
 }
+
+/*--6.Request-form--*/
+
+.request-form {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    width: 400px;
+    height: 430px;
+    left: 40%;
+    top: 50%;    
+    
+    background-color: white;
+    border: 1px solid #fb565a;
+    
+    
+    padding: 20px;
+    padding-right: 35px;
 }
 
+.request-form input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+}
 
+.request {
+    text-align: right;
+}
+
+.request-form textarea {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.request-btn {
+        
+}
+
+.request-title {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
