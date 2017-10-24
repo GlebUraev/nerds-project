@@ -1,0 +1,97 @@
+
+.header {
+    height: 350px;
+    margin-bottom: 60px;
+}
+
+.shop-title {
+    text-align: center;
+    font-size: 55px;
+}
+
+.parameter-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.filter {
+    width: 260px;
+    float: left;
+    text-align: left;
+}
+
+.price-range {
+    width: 260;
+    height: 80px;    
+    
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    border-radius: 5px;    
+}
+
+.price-value {
+    display: inline-block;
+
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    
+    margin-left: 10px;
+    margin-right: 23px;
+    
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+.price-number .price-value:last-child {
+    margin-right: 0;
+}
+
+.parameter-variant {
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.btn-show {
+    display: inline-block;
+    width: 260px;
+    line-height: 50px;
+    
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    color: black;    
+    background-color: #eeeeee;
+}
+
+.btn-show:hover {
+    background-color: #dfdfdf;
+}
+
+.btn-show:active {
+    color: rgba(0,0,0,0.3);        
+}
+
+.filter-item input[type="radio"],
+.filter-item input[type="checkbox"]{
+    display: none;    
+}
+
+.filter-item input[type="radio"] + label span,
+.filter-item input[type="checkbox"] + label span {
+    display: inline-block;
+    
+    width: 27px;
+    height: 25px;
+    
+    background: url(/img/radio-check-sprite.png) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
