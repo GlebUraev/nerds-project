@@ -330,11 +330,9 @@ body {
 
 .btn-big:active {    
     color: rgba(255,255,255,0.3);
-}
-
-.btn-big:active {
     background-color: #d7373b;
 }
+
 
 .last-p {
     margin-bottom: 30px;
@@ -413,7 +411,15 @@ body {
 .request-form input {
     margin-bottom: 10px;
     height: 30px;
-    width: 200px;
+    width: 200px;    
+}
+
+.parameter-variant {
+    opacity: 0.9;
+}
+
+.parameter-variant:hover {
+    opacity: 1;
 }
 
 .request {
@@ -433,4 +439,8 @@ body {
     margin: 0;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.catalog-all {
+    margin-top: 60px;
 }

@@ -11,12 +11,12 @@
         <div class="container">
             <section class="top-header clearfix">
                 <div class="logo">
-                    <a href=#><img src="img/nerds-logo.png" alt="Nerd`s Logo" title="Nerd`s - разработка и дизайн"></a>
+                    <a href="index.html"><img src="img/nerds-logo.png" alt="Nerd`s Logo" title="Nerd`s - разработка и дизайн"></a>
                 </div>
                 <ul class="main-nav">
-                    <li><a href=#>Студия</a></li>
+                    <li><a href="index.html">Студия</a></li>
                     <li><a href=#>Клиенты</a></li>
-                    <li><a href=#>Магазин</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
                     <li><a href=#>Контакты</a></li>
                     <li><a href=#><img class="cart-icon" src="img/cart-icon.png">Корзина</a></li>
                 </ul>                       
@@ -26,31 +26,129 @@
             </section>
         </div>
   </header>
-  <div class="container">
-      <aside class="filter">
-          <div class="filter-item">
-              <h3 class="parameter-title">Стоимость:</h3>
-              <div class="price-range"></div>
-              <div class="price-number">
-                  ОТ <div class="price-value">0</div>
-                  ДО <div class="price-value">15 000</div>
-              </div>
-          </div>
-          <div class="filter-item">
-              <h3 class="parameter-title">Сетка</h3>
-              <input type=radio name="grid" id="grid1" value="grid-adaptive"><label class="parameter-variant" for="grid1"><span></span>Адаптивная</label><br>
-              <input type=radio name="grid" id="grid2" value="grid-fix"><label class="parameter-variant" for="grid2"><span></span>Фиксированная</label><br>
-              <input type=radio name="grid" id="grid3" value="grid-rezina"><label class="parameter-variant" for="grid3"><span></span>Резиновая</label><br>
-          </div>
-          <div class="filter-item">
-              <h3 class="parameter-title">Особенности</h3>
-              <input type=checkbox name="properties" id="prop1" value="slider"><label class="parameter-variant" for="prop1">Слайдер</label><br>
-              <input type=checkbox name="properties" id="prop2" value="blockofsuper"><label class="parameter-variant" for="prop2">Блок преимуществ</label><br>        
-              <input type=checkbox name="properties" id="prop3" value="news"><label class="parameter-variant" for="prop3">Новости</label><br>
-              <input type=checkbox name="properties" id="prop4" value="gallery"><label class="parameter-variant" for="prop4">Галерея</label><br>
-              <input type=checkbox name="properties" id="prop5" value="basket"><label class="parameter-variant" for="prop5">Корзина</label><br>              
-          </div>
-          <a href="#" class="btn-show">Показать</a>
-      </aside>
-  </div>
+    <div class="container clearfix">
+        <aside class="filter">
+            <div class="filter-item">
+                <h3 class="parameter-title">Стоимость:</h3>
+                <div class="price-range">                    
+                    <div class="scale">
+                        <div class="scale-selected"></div>
+                        <div class="toggle toggle-min"></div>                        
+                        <div class="toggle toggle-max"></div>
+                    </div>
+                </div>
+                <div class="price-number">
+                    ОТ <div class="price-value">0</div>
+                    ДО <div class="price-value">15 000</div>
+                </div>
+            </div>
+            <div class="filter-item">
+                <h3 class="parameter-title">Сетка</h3>              
+                <input type=radio name="grid" id="grid1" value="grid-adaptive"><label class="parameter-variant" for="grid1"><span></span>Адаптивная</label><br>              
+                <input type=radio name="grid" id="grid2" value="grid-fix"><label class="parameter-variant" for="grid2"><span></span>Фиксированная</label><br>
+                <input type=radio name="grid" id="grid3" value="grid-rezina"><label class="parameter-variant" for="grid3"><span></span>Резиновая</label><br>
+            </div>
+            <div class="filter-item">
+                <h3 class="parameter-title">Особенности</h3>
+                <input type=checkbox name="properties" id="prop1" value="slider"><label class="parameter-variant" for="prop1"><span></span>Слайдер</label><br>
+                <input type=checkbox name="properties" id="prop2" value="blockofsuper"><label class="parameter-variant" for="prop2"><span></span>Блок преимуществ</label><br>         
+                <input type=checkbox name="properties" id="prop3" value="news"><label class="parameter-variant" for="prop3"><span></span>Новости</label><br>
+                <input type=checkbox name="properties" id="prop4" value="gallery"><label class="parameter-variant" for="prop4"><span></span>Галерея</label><br>
+                <input type=checkbox name="properties" id="prop5" value="basket"><label class="parameter-variant" for="prop5"><span></span>Корзина</label><br>              
+            </div>
+            <a href="#" class="btn-show">Показать</a>
+        </aside>
+        <section class="catalog">
+            <div class="sort clearfix">
+                <h3 class="parameter-title">Сортировать:</h3>
+                <div class="sort-list">
+                    <a href="#" class="sort-type">По цене</a>
+                    <a href="#" class="sort-type">По типу</a>
+                    <a href="#" class="sort-type">По названию</a>
+                    <a href="" class="order-icon desc">1</a>
+                    <a href="" class="order-icon asc">2</a>
+                </div>
+            </div>
+            <div class="catalog-all">
+                <div href=# class="catalog-item">
+                    <img src="img/img-sedona.jpg.png">
+                    <div class="template-info">
+                        <h3 class="template-title">Sedona</h3>
+                        <div class="template-description">Информационный сайт<br> для туристов</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+                <div href=# class="catalog-item">
+                    <img src="img/img-pink.jpg.png">
+                    <div class="template-info">
+                        <h3 class="template-title">Pink App</h3>
+                        <div class="template-description">Продуктовый лендинг<br>приложения для iOS и Android</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+                <div href=# class="catalog-item">
+                    <img src="img/img-barbershop.png">
+                    <div class="template-info">
+                        <h3 class="template-title">Barbershop</h3>
+                        <div class="template-description">Сайт салон красоты.<br>Для мужчин, да.</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+                <div href=# class="catalog-item">
+                    <img src="img/img-mishka.png">
+                    <div class="template-info">
+                        <h3 class="template-title">Mishka</h3>
+                        <div class="template-description">Интернет-магазин<br>вязаных игрушек</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+                <div href=# class="catalog-item">
+                    <img src="img/img-aplus.png">
+                    <div class="template-info">
+                        <h3 class="template-title">A plus</h3>
+                        <div class="template-description">Лендинг курсов повышения<br>квалификации</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+                <div href=# class="catalog-item">
+                    <img src="img/img-kvast.png">
+                    <div class="template-info">
+                        <h3 class="template-title">Кваст</h3>
+                        <div class="template-description">Промо-сайт производителя<br>крафтового кваса</div><br>                        
+                        <a class="btn-template-price" href=#>9 900 руб</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="page-navigation">
+                <div class="page-btn active">1</div>
+                <div class="page-btn notactive">2</div>
+                <div class="page-btn notactive">3</div>
+                <div class="btn-page-next">Следующая</div>
+            </div>
+        </section>
+    </div>
+        <section class="contact-map clearfix">
+        <div class="container">
+            <div class="contact-us">
+                <h3 class="title-studio">NЁRDS DESIGN STUDIO</h3>
+                <p>191186, Санкт-Петербург<br> ул. Б. Конюшенная, д. 19/8</p>
+                <p class="last-p">тел. +7 (812) 275-75-75</p>
+                <a class="btn-big" href=#>Напишите нам</a>
+            </div>  
+            <img class="map-marker" src="img/map-marker.png">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <a class="btn-social" href=#><img src="img/vk-icon1.png"></a>
+                <a class="btn-social" href=#><img src="img/fb-icon1.png"></a>
+                <a class="btn-social" href=#><img src="img/insta-icon1.png"></a>
+            </div>
+        </div>
+        <div class="discount">
+            <div class="slogan">Давайте дружить, это выгодно!</div>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </footer>
 </body>
